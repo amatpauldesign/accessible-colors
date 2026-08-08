@@ -13,19 +13,17 @@ with col2:
     if st.button("", icon=":material/info:", type="tertiary", help="About"):
         with open(f"README.md", "r", encoding="utf-8") as f:
             md_text = f.read()
-        # Display it in Streamlit
         @st.dialog("About", width="medium")
         def about_dialog():
             st.markdown(md_text)
         about_dialog()
 
-st.caption("A simple tool for evaluating color contrast and accessibility. Created by [Paul Amat](https://paulamatdesign.github.io/).")
+st.caption("A simple tool for evaluating color contrast and accessibility.")
 
 st.space()
 
 st.header("Contrast Ratio Checker")
 
-# Single row: left = color controls + preview, right = compliance
 left_col, right_col = st.columns([4, 3], gap="large")
 
 with left_col:
