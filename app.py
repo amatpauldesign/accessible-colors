@@ -18,7 +18,7 @@ with col2:
             st.markdown(md_text)
         about_dialog()
 
-st.caption("A simple tool for evaluating color contrast and accessibility.")
+st.caption("A simple homemade tool for evaluating color contrast and accessibility.")
 
 st.space()
 
