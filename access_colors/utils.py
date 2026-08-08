@@ -7,6 +7,13 @@ def pill(value, color):
         """
     )
 
+def preview(hex_front, hex_back):
+    st.html(
+        f"""
+            <div class='exemple' style='background-color:{hex_back}; color:{hex_front};'>Preview</div>
+        """
+    )
+
 def luminance(hex_color):
     r = int(hex_color[1:3], 16) / 255
     g = int(hex_color[3:5], 16) / 255

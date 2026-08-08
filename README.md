@@ -24,12 +24,13 @@ If you find a bug, calculation issue, or would like to suggest a new questionnai
 
 ### Mac Starter Commands
 
-```python
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 which pip
 pip install -r requirements.txt
 streamlit run app.py
+pip install color-contrast
 pip freeze > requirements.txt
 ```
 

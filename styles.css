@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:wght@300..800&display=swap');
 
-html, p {
+html,
+p {
     font-family: "Funnel Sans", sans-serif !important;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Funnel Display", sans-serif !important;
     font-weight: 800 !important;
 }
-            
+
 h2 {
     margin-top: 1.5rem;
     font-weight: 400 !important;
@@ -17,27 +19,27 @@ h2 {
     text-transform: uppercase;
     letter-spacing: normal !important;
 }
-            
+
 .pill {
     padding: 0rem 0.75rem;
     border-radius: 0.25rem;
     font-weight: 400;
     font-size: 2.6rem;
-    color:white;
+    color: white;
 }
 
 .pill-red {
     background-color: red;
 }
-            
+
 .pill-green {
     background-color: green;
 }
-            
+
 .pill-grey {
     background-color: dimgrey;
 }
-            
+
 .exemple {
     padding: 2rem;
     border-radius: 20px;
