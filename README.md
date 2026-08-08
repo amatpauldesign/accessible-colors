@@ -20,6 +20,10 @@ If you find a bug, calculation issue, or would like to suggest a new questionnai
 
 [paul.amat@live.fr](paul.amat@live.fr)
 
+## Third-Party Tools
+
+Suggested colors based on https://pypi.org/project/color-contrast/, thanks to Julian Leucker.
+
 ## GitHub Notice
 
 ### Mac Starter Commands

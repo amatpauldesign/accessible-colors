@@ -104,5 +104,3 @@ with right_col:
             st.write(new_front)
         with colB:
             preview(new_front, hex_back)
-
-st.caption("Suggested colors based on https://pypi.org/project/color-contrast/, thanks to Julian Leucker.")
