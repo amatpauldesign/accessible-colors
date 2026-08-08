@@ -29,7 +29,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 which pip
 pip install -r requirements.txt
-streamlit run Home.py
+streamlit run app.py
 pip freeze > requirements.txt
 ```
 

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:wght@300..800&display=swap');
+
+html, p {
+    font-family: "Funnel Sans", sans-serif !important;
+}
+
+h1, h2 {
+    font-family: "Funnel Display", sans-serif !important;
+    font-weight: 800 !important;
+}
+            
+h2 {
+    margin-top: 1.5rem;
+    font-weight: 400 !important;
+    opacity: 0.6 !important;
+    font-size: medium !important;
+    text-transform: uppercase;
+    letter-spacing: normal !important;
+}
+            
+.pill {
+    padding: 0rem 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    font-size: 2.6rem;
+    color:white;
+}
+
+.pill-red {
+    background-color: red;
+}
+            
+.pill-green {
+    background-color: green;
+}
+            
+.pill-grey {
+    background-color: dimgrey;
+}
+            
+.exemple {
+    padding: 2rem;
+    border-radius: 20px;
+    border: 0.5rem solid white;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.05);
+}
